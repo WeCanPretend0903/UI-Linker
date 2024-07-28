@@ -1,0 +1,77 @@
+
+<!-- saved from url=(0011)about:blank -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body data-new-gr-c-s-check-loaded="14.1188.0" data-gr-ext-installed=""><div id="webpack-dev-server-client-overlay-div" style="position: fixed; box-sizing: border-box; inset: 0px; width: 100vw; height: 100vh; font-size: large; padding: 2rem 2rem 4rem; line-height: 1.2; white-space: pre-wrap; overflow: auto; background-color: rgba(0, 0, 0, 0.9); color: white;"><div style="color: rgb(232, 59, 70); font-size: 2em; white-space: pre-wrap; font-family: sans-serif; margin: 0px 2rem 2rem 0px; flex: 0 0 auto; max-height: 50%; overflow: auto;">Compiled with problems:</div><button aria-label="Dismiss" style="color: rgb(255, 255, 255); line-height: 1rem; font-size: 1.5rem; padding: 1rem; cursor: pointer; position: absolute; right: 0px; top: 0px; background-color: transparent; border: none;">×</button><div><div style="background-color: rgba(206, 17, 38, 0.1); color: rgb(252, 207, 207); padding: 1rem 1rem 1.5rem;"><div data-can-open="true" style="color: rgb(232, 59, 70); font-size: 1.2em; margin-bottom: 1rem; font-family: sans-serif; cursor: pointer;">ERROR in ./src/App.js</div><div style="line-height: 1.5; font-size: 1rem; font-family: Menlo, Consolas, monospace;">Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/pj/Desktop/Projects/Linker/csc336linker/src/App.js: Identifier 'Switch' has already been declared. (11:9)
+
+<span style="font-weight:normal;opacity:1;color:#transparent;background:#transparent;"> <span style="color:#6D7891;">  9 |</span>   <span style="color:#FFD080;">Link</span><span style="color:#FFD080;">,</span>
+ <span style="color:#6D7891;"> 10 |</span> } <span style="color:#C3C2EF;">from</span> <span style="color:#B3CB74;">"react-router-dom"</span><span style="color:#FFD080;">;</span>
+<span style="color:#E36049;"><span style="font-weight:bold;">&gt;</span></span><span style="color:#6D7891;"> 11 |</span> <span style="color:#C3C2EF;">import</span> { <span style="color:#FFD080;">Switch</span> } <span style="color:#C3C2EF;">from</span> <span style="color:#B3CB74;">"@mui/material"</span><span style="color:#FFD080;">;</span>
+ <span style="color:#6D7891;">    |</span>          <span style="color:#E36049;"><span style="font-weight:bold;">^</span></span>
+ <span style="color:#6D7891;"> 12 |</span> <span style="color:#C3C2EF;">function</span> <span style="color:#FFD080;">App</span>() {
+ <span style="color:#6D7891;"> 13 |</span>   <span style="color:#C3C2EF;">return</span> (
+ <span style="color:#6D7891;"> 14 |</span>     <span style="color:#FFD080;">&lt;</span><span style="color:#FFD080;">div</span> className<span style="color:#FFD080;">=</span><span style="color:#B3CB74;">"App"</span><span style="color:#FFD080;">&gt;</span></span>
+    at constructor (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:351:19)
+    at FlowParserMixin.raise (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:3233:19)
+    at FlowScopeHandler.checkRedeclarationInScope (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:1493:19)
+    at FlowScopeHandler.declareName (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:1459:12)
+    at FlowScopeHandler.declareName (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:1560:11)
+    at FlowParserMixin.declareNameFromIdentifier (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:7309:16)
+    at FlowParserMixin.checkIdentifier (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:7305:12)
+    at FlowParserMixin.checkLVal (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:7251:12)
+    at FlowParserMixin.finishImportSpecifier (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:13716:10)
+    at FlowParserMixin.parseImportSpecifier (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:5555:17)
+    at FlowParserMixin.parseNamedImportSpecifiers (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:13859:36)
+    at FlowParserMixin.parseImportSpecifiersAndAfter (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:13693:37)
+    at FlowParserMixin.parseImport (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:13686:17)
+    at FlowParserMixin.parseStatementContent (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:12331:27)
+    at FlowParserMixin.parseStatementLike (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:12223:17)
+    at FlowParserMixin.parseStatementLike (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:5017:24)
+    at FlowParserMixin.parseModuleItem (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:12200:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:12780:36)
+    at FlowParserMixin.parseBlockBody (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:12773:10)
+    at FlowParserMixin.parseProgram (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:12100:10)
+    at FlowParserMixin.parseTopLevel (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:12090:25)
+    at FlowParserMixin.parseTopLevel (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:5784:28)
+    at FlowParserMixin.parse (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:13904:10)
+    at parse (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/parser/lib/index.js:13946:38)
+    at parser (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (&lt;anonymous&gt;)
+    at normalizeFile (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (&lt;anonymous&gt;)
+    at run (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/core/lib/transformation/index.js:21:50)
+    at run.next (&lt;anonymous&gt;)
+    at transform (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (&lt;anonymous&gt;)
+    at step (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/gensync/index.js:261:32)
+    at /Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/gensync/index.js:223:11)
+    at /Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/gensync/index.js:189:28
+    at /Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+    at /Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/gensync/index.js:113:33
+    at step (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/gensync/index.js:287:14)
+    at /Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/pj/Desktop/Projects/Linker/csc336linker/node_modules/gensync/index.js:223:11)</div></div><div style="background-color: rgba(206, 17, 38, 0.1); color: rgb(252, 207, 207); padding: 1rem 1rem 1.5rem;"><div style="color: rgb(232, 59, 70); font-size: 1.2em; margin-bottom: 1rem; font-family: sans-serif;">ERROR</div><div style="line-height: 1.5; font-size: 1rem; font-family: Menlo, Consolas, monospace;">[eslint] 
+src/App.js
+  <span style="font-weight:bold;">Line 11:9:</span>  Parsing error: Identifier 'Switch' has already been declared. (11:9)
+
+</div></div></div></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
