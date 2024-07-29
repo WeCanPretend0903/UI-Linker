@@ -6,6 +6,7 @@ import CheckIcon from "@mui/icons-material/Check";
 import BoltIcon from "@mui/icons-material/Bolt";
 import StarIcon from "@mui/icons-material/Star";
 import { IconButton } from "@mui/material";
+import { swipe, Card } from "react-tinder-card";
 
 const SwipeButtons = () => {
   return (
